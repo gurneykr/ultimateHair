@@ -1,0 +1,93 @@
+p {
+  text-align: center;
+}
+body {
+  /* background-color: pink; */
+  /* text-align: center; */
+}
+.header {
+  background-image: url("https://st2.depositphotos.com/1700111/8938/v/950/depositphotos_89389520-stock-illustration-vintage-floral-background.jpg");
+
+}
+h1, h3 {
+  text-align: center;
+}
+
+.menu{
+  display: flex;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 10px; */
+}
+.menu a{ /*items in menu*/
+  color: black;
+  text-decoration: none;
+  padding-top: 25px;
+  height: 40px;
+  flex-grow: 1;
+  text-align: center;
+  background-color: #ffe6ff;
+  border: 1px solid #ffb3ff;
+
+}
+
+.menu a:hover{
+  background-color: #ffb3ff;
+}
+
+.hairmenu {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  width: 125px;
+}
+
+.hairmenu a{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #ffe6ff;
+  border: 1px solid #ffb3ff;
+}
+
+.hairmenu a:hover{
+  background-color: #ffb3ff;
+}
+
+div.hairgallery {
+  border: 1px solid #ccc;
+}
+
+div.hairgallery:hover {
+  border: 1px solid #777;
+}
+div.hairgallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
